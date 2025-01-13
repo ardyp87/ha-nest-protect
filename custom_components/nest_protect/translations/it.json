@@ -1,0 +1,39 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Account già configurato"
+    },
+    "error": {
+      "cannot_connect": "Connessione fallita",
+      "invalid_auth": "Autenticazione fallita",
+      "unknown": "Errore sconosciuto"
+    },
+    "step": {
+      "user": {
+        "description": "Seleziona il tipo di Account. La maggior parte degli utenti dovranno selezionare Google Account. Field Test è disponibile solo per alcuni tester selezionati nel programma Google Field Test.",
+        "data": {
+          "account_type": "Tipo di Account"
+        }
+      },
+      "account_link": {
+        "description": "Sfortunatamente Google non fornisce supporto API ufficiale per questa integrazione. Per farla funzionare dovrai recuperare manualmente il tuo issue_token e cookies seguendo le istruzioni nel file README (https://github.com/iMicknl/ha-nest-protect/tree/#retrieving-issue_token-and-cookies). Incollali nei form di seguito.",
+        "data": {
+          "issue_token": "Issue_token",
+          "cookies": "Cookies"
+        }
+      }
+    }
+  },
+  "entity": {
+    "select": {
+      "night_light_brightness": {
+        "name": "Luminosità",
+        "state": {
+          "low": "Bassa",
+          "medium": "Media",
+          "high": "Alta"
+        }
+      }
+    }
+  }
+}
